@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-awschatfe-dev-5a2eb-authRole",
+      "UnauthRoleArn": "arn:aws:iam::851725339316:role/amplify-awschatfe-dev-5a2eb-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::851725339316:role/amplify-awschatfe-dev-5a2eb-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-awschatfe-dev-5a2eb-deployment",
+      "UnauthRoleName": "amplify-awschatfe-dev-5a2eb-unauthRole",
+      "StackName": "amplify-awschatfe-dev-5a2eb",
+      "StackId": "arn:aws:cloudformation:us-east-1:851725339316:stack/amplify-awschatfe-dev-5a2eb/094a9e40-f902-11ee-ac4c-0affd67ee555",
+      "AmplifyAppId": "dtwd4o5pg7665"
+    }
+  },
+  "auth": {
+    "awschatfe871fb06f": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-awschatfe-dev-5a2eb-deployment/amplify-cfn-templates/auth/awschatfe871fb06f-cloudformation-template.json",
+        "logicalId": "authawschatfe871fb06f"
+      },
+      "lastPushTimeStamp": "2024-04-12T19:25:55.246Z",
+      "output": {
+        "UserPoolId": "us-east-1_SuUWsB4gr",
+        "AppClientIDWeb": "3o6n3nd11433d1u0md0kheq4dk",
+        "AppClientID": "7skvefeh1n8nman2lj2ql45ukb",
+        "IdentityPoolId": "us-east-1:3fb6cadc-2ced-4a13-8db8-bb208360a98a",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:851725339316:userpool/us-east-1_SuUWsB4gr",
+        "IdentityPoolName": "awschatfe871fb06f_identitypool_871fb06f__dev",
+        "UserPoolName": "awschatfe871fb06f_userpool_871fb06f"
+      },
+      "lastPushDirHash": "sq04wxCcGQToplDSC6JKBnjLPzo="
+    }
+  }
+}
